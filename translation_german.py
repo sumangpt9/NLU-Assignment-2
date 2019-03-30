@@ -595,7 +595,7 @@ def show_plot(points):
 # In[89]:
 
 
-def trainIters(encoder, decoder, n_iters, print_every=1, plot_every=10, learning_rate=0.001):
+def trainIters(encoder, decoder, n_iters, print_every=1000, plot_every=40000, learning_rate=0.001):
     
     start = time.time()
     plot_losses = []
