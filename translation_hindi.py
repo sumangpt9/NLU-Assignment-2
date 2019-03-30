@@ -729,6 +729,7 @@ evaluate_randomly(encoder,decoder)
 
 
 
+##Testing
 from nltk.translate.bleu_score import sentence_bleu
 
 
