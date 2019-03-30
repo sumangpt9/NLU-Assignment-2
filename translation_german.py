@@ -698,7 +698,7 @@ elif(attn=="Bahadanau"):
   decoder = BahdanauAttnDecoderRNN(hidden_size, vocabulary_size_ger)
   
 decoder.to(device)
-trainIters(encoder, decoder, 120000, print_every=1000)
+trainIters(encoder, decoder, 120000, print_every=1000) #30 epochs (#training examples *30 =120000) 
 
 
 # In[98]:
